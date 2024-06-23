@@ -1,0 +1,11 @@
+<div class="header" style="position: fixed; top:0; z-index: 100;">
+  <app-header></app-header>
+</div>
+<div [class.visible]="sidebarVisible" class="main-container">
+  <div class="side-nav">
+    <app-side-nav></app-side-nav>
+  </div>
+  <div class="main" style="margin-top: 56px;">
+    <router-outlet></router-outlet>
+  </div>
+</div>

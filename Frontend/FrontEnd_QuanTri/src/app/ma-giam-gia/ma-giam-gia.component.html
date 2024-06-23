@@ -1,0 +1,41 @@
+<p-table class="table-sanpham" [value]="datas" [tableStyle]="{'min-width': '60rem'}" [paginator]="true" [rows]="10"
+    [tableStyle]="{'min-width': '100%'}">
+    <ng-template class="top-table" pTemplate="caption">
+        <div class="flex align-items-center justify-content-between"
+            style="padding: 10px; display: grid; grid-template-columns: 90% 5% 5%; align-items: center; font-size: 30px;">
+            <th style="border-style: none;">Mã giảm giá</th>
+            <th style="border-style: none;"><p-button icon="pi pi-refresh" title="Làm mới"
+                    (click)="getAll()"></p-button></th>
+            <th style="border-style: none;"><a [routerLink]="['/themmagiamgia']"><p-button icon="pi pi-plus"
+                        title="Thêm mới"></p-button></a></th>
+        </div>
+    </ng-template>
+    <ng-template class="header-table" pTemplate="header">
+        <tr style="height: 45px;">
+            <th>ID</th>
+            <th>Số lượng</th>
+            <th>Mã</th>
+            <th>Lượng giảm</th>
+            <th>Ngày tạo</th>
+            <th></th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-datas>
+        <tr>
+            <td>{{datas.id}}</td>
+            <td>{{datas.soLuong}}</td>
+            <td>{{datas.ma}}</td>
+            <td>{{ datas.luongGiam }}%</td>
+            <td>{{datas.ngayTao}}</td>
+            <td>
+                <button class="button"><a title="Sửa" [routerLink]="['/suamagiamgia', datas.id]"><i
+                            class="fa-regular fa-pen-to-square"></i></a></button>
+            </td>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="summary">
+        <div class="flex align-items-center justify-content-between">
+            Tổng {{datas ? datas.length : 0 }} mã giảm giá.
+        </div>
+    </ng-template>
+</p-table>

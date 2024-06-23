@@ -1,0 +1,17 @@
+<div class="grid p-fluid">
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Tên loại</span>
+            <input class="require" [(ngModel)]="tenLoai" type="text" pInputText required>
+            <button type="submit" class="btn btn-primary" (click)="onSubmit()">Thêm</button>
+        </div>
+    </div>
+    <div class="errAlert" *ngIf="check == true && !tenLoai"><label>Ảnh sản phẩm bắt buộc!</label></div>
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Mô tả</span>
+            <input class="require" [(ngModel)]="mota" type="text" pInputText required>
+            <button class="btn btn-primary" (click)="onBack()">Trở lại</button>
+        </div>
+    </div>
+</div>

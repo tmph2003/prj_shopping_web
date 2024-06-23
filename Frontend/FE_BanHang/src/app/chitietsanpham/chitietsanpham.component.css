@@ -1,0 +1,219 @@
+*{
+  font-family: Montserrat;
+
+}
+
+.hang{
+  display: flex;
+
+}
+.right{
+  width: calc(75% - 430px);
+}
+.left{
+  width: 430px;
+  text-align: center;
+}
+
+.img__container{
+  padding: 0 10px;
+}
+.anhsanphamlist img{
+  width: 100px;
+  height: 120px;
+}
+.rightlistsp{
+  width: 100%;
+}
+.last{
+  width: 25%;
+}
+.item{
+  padding: 10px;
+  display: flex;
+}
+.cot2__listsp{
+  padding: 10px;
+}
+.rightlistsp{
+  height: 431px;
+  overflow-y: scroll;
+}
+.hang{
+  margin-bottom: 20px;
+}
+.right .right__item{
+  margin-bottom: 10px;
+}
+.product-size-guide {
+  display: block;
+  background-color: rgba(99, 177, 188, 0.05);
+  border: 1px solid rgba(99, 177, 188, 0.1);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  color: #63B1BC;
+  padding: 7px 8px 7px 44px;
+  background-repeat: no-repeat;
+  background-position: left 11px center;
+  margin-bottom: 19px;
+  position: relative;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-size-guide a{
+  text-decoration: none;
+  color: #63B1BC;
+}
+.img__container{
+  border-left: lightblue solid 2px;
+}
+.size__item{
+  padding: 8px 12px;
+  margin-left: 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: rgb(234, 250, 250);
+}
+.listsize__container::-webkit-scrollbar{
+  display: none;
+}
+.listsize__container{
+  width: calc(100% - 35px);
+}
+.size__item:focus{
+  border: solid 1px blue;
+}
+.size__item:hover{
+  cursor: pointer;
+}
+input[type="radio"] {
+  display: none;
+
+}
+.radiocheck::after{
+
+}
+label {
+  display: inline-block;
+  position: relative;
+  padding: 13px;
+  cursor: pointer;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+input[type="radio"]:checked + label {
+  outline: rgb(5, 5, 141) 2px solid;
+}
+.item{
+  transition: 0.3s;
+}
+.item:hover{
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.rightlistsp{
+  padding: 4px;
+}
+.item img{
+  transition: 0.3s;
+}
+.item:hover img{
+  width: 115px;
+  height: 130px;
+}
+
+.fa-solid{
+  font-family: "Font Awesome 6 Free" !important;
+}
+.product-size-guide:hover{
+  cursor: pointer;
+}
+.spdh_mota p{
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.box-yeuthich:hover{
+  cursor: pointer;
+}
+.box-yeuthich2:hover{
+  cursor: pointer;
+}
+
+.box-yeuthich{
+  transition: 0.5s
+}
+.box-yeuthich:hover i{
+  color: rgb(237, 1, 1);
+}
+
+
+
+
+
+
+:host ::ng-deep .rate .p-element{
+  display: flex;
+  align-items: center;
+}
+
+:host ::ng-deep .listsize__container .p-button{
+  padding: 5px 7px;
+  margin-right: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  border: solid 1px lightblue;
+}
+
+
+
+
+
+:host ::ng-deep .p-rating-item{
+  display: flex;
+  align-items: center;
+}
+:host ::ng-deep .p-inputtext{
+  width: 50px !important;
+}
+:host ::ng-deep .p-inputnumber-button{
+  padding: 5px 0;
+}
+:host ::ng-deep .p-inputtext{
+  width: 50px !important;
+}
+:host ::ng-deep .p-inputnumber-input{
+  padding: 5px 0;
+  text-align: center;
+}
+:host ::ng-deep .p-inputwrapper{
+  margin-left: 10px;
+}
+:host ::ng-deep .img__container img{
+  height: 470px;
+  width: 370px;
+  object-fit: cover;
+}
+:host ::ng-deep .p-image-preview-indicator{
+  width: 100% !important;
+}
+:host ::ng-deep .p-galleria{
+  padding-right: 20px;
+}
+
+:host ::ng-deep p-galleria{
+  width: 40%;
+}
+/* :host ::ng-deep .p-galleria-thumbnail-item {
+  flex: 1 0 25% !important;
+} */
+
+:host ::ng-deep .imageDanhGia__container .p-image-preview-container img{
+  object-fit: contain;
+}

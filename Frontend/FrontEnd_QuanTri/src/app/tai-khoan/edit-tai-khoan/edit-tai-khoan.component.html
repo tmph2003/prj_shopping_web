@@ -1,0 +1,62 @@
+<div class="grid p-fluid">
+    <div class="col-12 md:col-4">
+        <div style="width: 79%;" class="p-inputgroup">
+            <span style="width: 18%;" class="p-inputgroup-addon">Tên đăng nhập</span>
+            <input class="require" [(ngModel)]="tendangnhap" type="text" pInputText>
+            <button style="padding: 20px;" type="submit" class="btn btn-primary" (click)="onSubmit()">Sửa</button>
+        </div>
+    </div>
+    <div class="errAlert" *ngIf="check == true && !tendangnhap"><label>Tên đăng nhập bắt buộc!</label></div>
+    <div class="col-12 md:col-4">
+        <div style="width: 79%;" class="p-inputgroup">
+            <span style="width: 18%;" class="p-inputgroup-addon">Tên hiển thị</span>
+            <input class="require" [(ngModel)]="tenhienthi" type="text" pInputText>
+            <button class="btn btn-primary" (click)="onBack()">Trở lại</button>
+        </div>
+    </div>
+    <div class="errAlert" *ngIf="check == true && !tenhienthi"><label>Tên hiển thị bắt buộc!</label></div>
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Mật khẩu</span>
+            <input class="require" [(ngModel)]="matkhau" type="text" pInputText>
+        </div>
+    </div>
+    <div class="errAlert" *ngIf="check == true && !matkhau"><label>Mật khẩu bắt buộc!</label></div>
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Vai trò</span>
+            <p-radioButton name="group1" [value]="true" label="Người dùng" [(ngModel)]="vaitro"></p-radioButton>
+            <p-radioButton name="group1" [value]="false" label="Admin" [(ngModel)]="vaitro"></p-radioButton>
+        </div>
+    </div>
+    <div class="errAlert" *ngIf="check == true && !vaitro"><label>Vai trò bắt buộc!</label></div>
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Giới tính</span>
+            <p-radioButton name="group1" [value]="true" label="Nam" [(ngModel)]="gioitinh"></p-radioButton>
+            <p-radioButton name="group1" [value]="false" label="Nữ" [(ngModel)]="gioitinh"></p-radioButton>
+        </div>
+    </div>
+    <div class="errAlert" *ngIf="check == true && !gioitinh"><label>Giới tính bắt buộc!</label></div>
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Ngày sinh</span>
+            <input class="require" [(ngModel)]="ngaysinh" type="text" pInputText>
+        </div>
+    </div>
+    <div class="errAlert" *ngIf="check == true && !ngaysinh"><label>Ngày sinh bắt buộc!</label></div>
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Email</span>
+            <input class="require" [(ngModel)]="email" type="text" pInputText>
+        </div>
+    </div>
+    <div class="errAlert" *ngIf="check == true && !email"><label>Email bắt buộc!</label></div>
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Số điện thoại</span>
+            <input class="require" [(ngModel)]="sodienthoai" type="text" pInputText>
+        </div>
+    </div>
+    <div class="errAlert" *ngIf="check == true && !sodienthoai"><label>Số điện thoại bắt buộc!</label></div>
+</div>

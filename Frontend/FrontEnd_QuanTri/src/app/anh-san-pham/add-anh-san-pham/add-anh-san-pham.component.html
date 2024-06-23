@@ -1,0 +1,19 @@
+<div class="grid p-fluid">
+    <div class="col-12 md:col-4">
+        <div style="width: 79%;" class="p-inputgroup">
+            <span style="width: 18%;" class="p-inputgroup-addon">Tên sản phẩm</span>
+            <p-dropdown class="require" [options]="sanPhamIdList" [(ngModel)]="sanPhamIdSelected" optionLabel="ten"
+                optionValue="id" class="custom-dd"></p-dropdown>
+            <button type="submit" class="btn btn-primary" (click)="onSubmit()">Thêm</button>
+        </div>
+    </div>
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Ảnh</span>
+            <input type="file" ngf-select ngModel ngf-pattern="'image/*'" accept="image/*" ngf-max-size="20MB"
+                (change)="onChangeImage($event)" />
+            <img [src]="anh" *ngIf="anh" style="border: 1px solid black;">
+        </div>
+    </div>
+    <div class="errAlert" *ngIf="check == true && !anh"><label>Ảnh sản phẩm bắt buộc!</label></div>
+</div>

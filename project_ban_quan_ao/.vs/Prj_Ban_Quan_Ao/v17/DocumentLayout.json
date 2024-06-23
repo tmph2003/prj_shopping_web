@@ -1,0 +1,598 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|c:\\users\\phuong\\desktop\\ky6\\dacn\\latest\\frontend_doan_er\\project_ban_quan_ao\\prj_ban_quan_ao\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|c:\\users\\phuong\\desktop\\ky6\\dacn\\latest\\frontend_doan_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\magiamgiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\magiamgiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\donhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\donhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\diachiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\diachiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\loaisanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\loaisanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\danhgiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\danhgiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\anhsanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\anhsanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\baivietscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\baivietscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\sanphamdonhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\sanphamdonhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\giohangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\giohangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\yeuthichescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\yeuthichescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\models\\dbquanaocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\models\\dbquanaocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\sanphamgiohangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\sanphamgiohangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\sanphamkichcoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\sanphamkichcoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\models\\sanphamkichco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\models\\sanphamkichco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\accountmagiamgiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\accountmagiamgiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\models\\anhdanhgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\models\\anhdanhgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\models\\loaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\models\\loaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\models\\yeuthich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\models\\yeuthich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\chatboxescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\chatboxescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\models\\chatbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\models\\chatbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\models\\baiviet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\models\\baiviet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\anhdanhgiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\anhdanhgiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\controllers\\gopiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\controllers\\gopiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\models\\danhgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\models\\danhgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\models\\sanphamdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\models\\sanphamdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\models\\sanphamgiohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\models\\sanphamgiohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\models\\anhsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\models\\anhsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\prj_ban_quan_ao\\models\\magiamgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FABBBA4A-1705-4192-A098-D0BF32CA156F}|Prj_Ban_Quan_Ao\\Prj_Ban_Quan_Ao.csproj|solutionrelative:prj_ban_quan_ao\\models\\magiamgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-23T13:37:48.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AnhSanPhamsController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\AnhSanPhamsController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\AnhSanPhamsController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\AnhSanPhamsController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\AnhSanPhamsController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T18:36:16.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DanhGiumsController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\DanhGiumsController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\DanhGiumsController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\DanhGiumsController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\DanhGiumsController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAswF8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T06:54:03.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoaiSanPhamsController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\LoaiSanPhamsController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\LoaiSanPhamsController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\LoaiSanPhamsController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\LoaiSanPhamsController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwBoAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T06:57:01.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DiaChisController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\DiaChisController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\DiaChisController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\DiaChisController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\DiaChisController.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAswGcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T06:54:38.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DonHangsController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\DonHangsController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\DonHangsController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\DonHangsController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\DonHangsController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwB8AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T06:55:08.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\AccountsController.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAowJ0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T06:25:08.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaiVietsController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\BaiVietsController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\BaiVietsController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\BaiVietsController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\BaiVietsController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBoAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T06:51:22.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MaGiamGiumsController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\MaGiamGiumsController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\MaGiamGiumsController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\MaGiamGiumsController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\MaGiamGiumsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T06:59:30.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SanPhamsController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\SanPhamsController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\SanPhamsController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\SanPhamsController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\SanPhamsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T07:00:09.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DbQuanAoContext.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\DbQuanAoContext.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Models\\DbQuanAoContext.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\DbQuanAoContext.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Models\\DbQuanAoContext.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAkwCsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:15:31.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SanPhamDonHangsController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\SanPhamDonHangsController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\SanPhamDonHangsController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\SanPhamDonHangsController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\SanPhamDonHangsController.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAqwIQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T07:00:45.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Dockerfile",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Dockerfile",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Dockerfile",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-22T15:49:49.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GioHangsController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\GioHangsController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\GioHangsController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\GioHangsController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\GioHangsController.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAswGoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T06:56:04.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "YeuThichesController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\YeuThichesController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\YeuThichesController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\YeuThichesController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\YeuThichesController.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAuwJcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T07:02:11.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\appsettings.json",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\appsettings.json",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\appsettings.json",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-22T18:33:35.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Program.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Program.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Program.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T18:33:24.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SanPhamGioHangsController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\SanPhamGioHangsController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\SanPhamGioHangsController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\SanPhamGioHangsController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\SanPhamGioHangsController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwC0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T06:50:16.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SanPhamKichCoesController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\SanPhamKichCoesController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\SanPhamKichCoesController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\SanPhamKichCoesController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\SanPhamKichCoesController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAYwEwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T07:01:40.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SanPhamKichCo.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\SanPhamKichCo.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Models\\SanPhamKichCo.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\SanPhamKichCo.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Models\\SanPhamKichCo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T08:25:40.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\SanPham.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Models\\SanPham.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\SanPham.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Models\\SanPham.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA2wCIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T04:37:32.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AccountMaGiamGiumsController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\AccountMaGiamGiumsController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\AccountMaGiamGiumsController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\AccountMaGiamGiumsController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\AccountMaGiamGiumsController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAswDcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T06:49:03.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AnhDanhGium.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\AnhDanhGium.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Models\\AnhDanhGium.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\AnhDanhGium.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Models\\AnhDanhGium.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T04:29:22.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoaiSanPham.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\LoaiSanPham.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Models\\LoaiSanPham.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\LoaiSanPham.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Models\\LoaiSanPham.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:10:19.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "YeuThich.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\YeuThich.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Models\\YeuThich.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\YeuThich.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Models\\YeuThich.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T05:16:18.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BaiViet.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\BaiViet.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Models\\BaiViet.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\BaiViet.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Models\\BaiViet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T14:39:03.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ChatBoxesController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\ChatBoxesController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\ChatBoxesController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\ChatBoxesController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\ChatBoxesController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAIAwwFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T02:58:37.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ChatBox.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\ChatBox.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Models\\ChatBox.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\ChatBox.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Models\\ChatBox.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T03:15:54.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AnhDanhGiumsController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\AnhDanhGiumsController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\AnhDanhGiumsController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\AnhDanhGiumsController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\AnhDanhGiumsController.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAqwGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T06:50:19.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GopiesController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\GopiesController.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Controllers\\GopiesController.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Controllers\\GopiesController.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Controllers\\GopiesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T06:55:36.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DanhGium.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\DanhGium.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Models\\DanhGium.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\DanhGium.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Models\\DanhGium.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T09:04:26.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SanPhamDonHang.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\SanPhamDonHang.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Models\\SanPhamDonHang.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\SanPhamDonHang.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Models\\SanPhamDonHang.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwBYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:36:33.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SanPhamGioHang.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\SanPhamGioHang.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Models\\SanPhamGioHang.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\SanPhamGioHang.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Models\\SanPhamGioHang.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T15:36:54.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DonHang.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\DonHang.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Models\\DonHang.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\DonHang.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Models\\DonHang.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T00:49:15.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AnhSanPham.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\AnhSanPham.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Models\\AnhSanPham.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\AnhSanPham.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Models\\AnhSanPham.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:17:22.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MaGiamGium.cs",
+              "DocumentMoniker": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\MaGiamGium.cs",
+              "RelativeDocumentMoniker": "Prj_Ban_Quan_Ao\\Models\\MaGiamGium.cs",
+              "ToolTip": "C:\\Users\\Phuong\\Desktop\\Ky6\\DACN\\LATEST\\FrontEnd_DoAn_er\\project_ban_quan_ao\\Prj_Ban_Quan_Ao\\Models\\MaGiamGium.cs",
+              "RelativeToolTip": "Prj_Ban_Quan_Ao\\Models\\MaGiamGium.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:15:54.943Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

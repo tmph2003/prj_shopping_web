@@ -1,0 +1,53 @@
+<div style="margin-top: 144px; padding: 40px 0 20px 0;">
+  <div class="container">
+    <h3 style="text-align: center; text-transform: uppercase; margin-bottom: 40px; font-weight: 800; color: rgb(24, 177, 198);">Hỗ trợ trực tuyến</h3>
+    <div *ngIf="accountUser" style="display: flex;">
+      <p style="font-size: 18px; font-weight:  800; color: rgb(98, 51, 143); margin-right:  30px;">{{accountUser.tenHienThi}}</p>
+      <p style="font-size: 18px; font-weight:  800;"><span style="font-size: 16px; font-weight: 600;">Username:</span> {{accountUser.tenDangNhap}}</p>
+    </div>
+
+    <div class="chatbox__container" style="      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); border-radius: 5px;padding: 10px 5px 5px 5px;">
+      <div  style="height: calc(100vh - 144px); overflow-y: auto;background-image: url(https://i.pinimg.com/originals/48/97/be/4897beb137ca4f5c2c353e3b50e87821.png); background-size: contain; ">
+        <div *ngIf="listMessage" style="padding-bottom: 20px;">
+          <div *ngIf="listMessage.length == 0" >
+            <div style="display: flex;justify-content: center; padding-bottom: 10px;">
+              <div style="padding: 8px 10px; width: fit-content; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14); border-radius: 10px; margin-top: 5px; background-color: white;"><p style="text-align: center; margin: 0;">Gửi lời chào tới khách hàng</p></div>
+            </div>
+
+            <div style="display: flex;justify-content: center; padding-bottom: 10px;">
+              <img [src]="accountUser.duongDanAnh" style="width: 400px; height: 300px; object-fit: cover; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14); border-radius: 20px;">
+            </div>
+          </div>
+          <div *ngIf="listMessage.length != 0">
+            <div *ngFor="let item of listMessage">
+              <div *ngIf="item.nguoiGuiId == item.accountId" style="margin-top: 10px; display: flex; margin-left: 10px;">
+                <div style="width: 50px; height: 50px; object-fit: cover; border-radius: 28px; display: flex; align-items: center; justify-content: center; border: solid 1px rgb(182, 182, 254); background-color: rgb(255, 255, 255);">
+                  <img [src]="accountUser.duongDanAnh" alt="" style="width: 50px; height: 50px; object-fit: cover; border-radius: 28px;" >
+                </div>
+                <div  style="padding: 8px 10px; width: fit-content; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14); border-radius: 10px; margin-top: 5px; margin-left: 10px; background-color: rgb(229, 233, 251);" >
+                  <p style="text-align: center; margin: 0;">{{item.noiDung}}</p>
+                </div>
+              </div>
+              <div *ngIf="item.nguoiGuiId == item.adminId" style="display: flex; justify-content: right; margin-top: 10px; margin-right: 10px;">
+
+                <div  style="padding: 8px 10px; width: fit-content; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14); border-radius: 10px; margin-top: 5px; margin-right: 10px;background-color: rgb(185, 231, 250);" >
+                  <p style="text-align: center; margin: 0;">{{item.noiDung}}</p>
+                </div>
+                <div style="width: 50px; height: 50px; object-fit: cover; border-radius: 28px; display: flex; align-items: center; justify-content: center; border: solid 1px rgb(182, 182, 254); background-color: rgb(255, 255, 255);">
+                  <img src="https://img.freepik.com/free-vector/fashion-logo_23-2148558723.jpg" alt="" style="width: calc(100% - 10px); height: auto; object-fit: cover;">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="write__container">
+        <div class="write__box" style="width: 100%; padding: 5px;">
+          <input type="text" pInputText [(ngModel)]="currentChat" style="width: 100%; padding: 7px" (keydown)="sendMessage($event)"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

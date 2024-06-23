@@ -1,0 +1,52 @@
+<div style="margin-top: 144px; padding: 40px 0;">
+  <div class="container">
+    <p style="font-size: 25px; font-weight: 700; text-align: center;">Sản phẩm yêu thích của tôi</p>
+
+    <div class="item--container" *ngIf="listSanPham.length == 0" style="text-align: center;">
+      <img src="https://cdn-icons-png.flaticon.com/512/11329/11329060.png" alt="" style="width: 300px; height: 300px;">
+      <h4>Chưa có sản phẩm yêu thích nào</h4>
+    </div>
+    <div class="item--container" *ngIf="listSanPham.length > 0">
+
+
+      <div class="item" *ngFor="let item of listSanPham">
+        <div class="item_c"  style="display: flex; justify-content: space-between; width: 100%; position: relative;">
+          <div class="div1" routerLink="/chitietsanpham/{{item.id}}" style="width: 100%;">
+            <div class="cot1"><img [src]="item.duongDanAnh" alt=""></div>
+            <div class="cot2" style="width: 40%;">
+              <div class="item__name" style="margin-bottom: 20px;">{{item.ten}}</div>
+              <p><p-rating [(ngModel)]="item.danhGia" [readonly]="true" [stars]="5" [cancel]="false" ></p-rating></p>
+                    <p class="gia" *ngIf="!item.giaSauGiam">{{item.gia | formatVnd }}</p>
+                    <span *ngIf="item.giaSauGiam" style="display: flex;">
+                      <p class="gia" style="color: gray; text-decoration: line-through; margin-right: 10px;">{{item.gia | formatVnd }}</p>
+                      <p class="gia" >{{item.giaSauGiam | formatVnd }}</p>
+                    </span>
+              <div class="item__size">
+                <p-selectButton [options]="item.kichCo" optionLabel="kichCo" optionValue="kichCo" [disabled]="true"></p-selectButton>
+              </div>
+            </div>
+            <div class="cot3" style="width: 35%; text-align: center; display: flex; justify-content: center;">
+              <div *ngFor="let item2 of item.mau">
+                <label for="do" style="  background-color: red;"*ngIf="item2 == 1"></label>
+
+                <label for="cam" style="  background-color: orange;" *ngIf="item2 == 2"></label>
+                <label for="vang" style="  background-color: yellow;" *ngIf="item2 == 3"></label>
+                <label for="luc" style="  background-color: rgb(22, 126, 6);" *ngIf="item2 == 4"></label>
+                <label for="xanhduong" style="  background-color: rgb(14, 5, 110);"  *ngIf="item2 == 5"></label>
+                <label for="tim" style="  background-color: rgb(51, 5, 106);"  *ngIf="item2 == 6"></label>
+                <label for="trang" style="  background-color: rgb(255, 255, 255);"  *ngIf="item2 == 8"></label>
+                <label for="den" style="  background-color: rgb(0, 0, 0);"  *ngIf="item2 == 7"></label>
+              </div>
+            </div>
+          </div>
+          <div class="div2">
+            <div class="cot4" style="position: absolute; right: 20px; top: 50%; transform: translateY(-50%);">
+              <button pButton type="button" class="p-button-raised p-button-rounded p-button-danger" style="border-radius: 25px; padding: 12px;" (click)="xoaSanPhamYeuThich(item.id)"><i class="fas fa-heart-crack"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

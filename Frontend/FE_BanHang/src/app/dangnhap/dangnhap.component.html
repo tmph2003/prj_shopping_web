@@ -1,0 +1,46 @@
+<div style="margin-top: 144px; padding: 40px 0;">
+  <div class="container" style="width: 100%; max-width: unset;">
+  <div class="form-block mx-auto">
+      <div class="text-center mb-4">
+        <img src="https://img.freepik.com/free-vector/fashion-logo_23-2148558723.jpg" alt="" style="width: 220px; height: 60px; object-fit: cover;">
+        <div><b style="font-size: 25px;">Đăng nhập</b></div>
+      </div>
+      <div class="form-group first">
+      <label for="username">Username</label>
+      <input type="text" class="form-control" placeholder="Tên đăng nhập" id="username" [(ngModel)]="tendangnhap" >
+      </div>
+      <div class="form-group last mb-3">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" placeholder="Mật khẩu" id="password" [(ngModel)]="matkhau">
+      </div>
+      <div class="d-sm-flex mb-5 align-items-center">
+      <label class="control control--checkbox "><span class="caption">Remember me</span>
+      <input type="checkbox" checked="checked" />
+      <div class="control__indicator"></div>
+      </label>
+      </div>
+      <input type="submit" value="Log In" class="btn btn-block btn-primary" style="width: 100%;" (click)="solveDangNhap()">
+
+      <div style="text-align: right; margin-top: 20px;">
+        <a>Chưa có tài khoản?</a><a routerLink="/dangky" style="color: rgb(93, 25, 157);"> Đăng ký</a>
+    </div>
+      </div>
+
+      <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+  </div >
+  </div>
+</div>
+<p-toast></p-toast>
+

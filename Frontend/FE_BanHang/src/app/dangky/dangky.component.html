@@ -1,0 +1,84 @@
+<div style="margin-top: 144px; padding: 40px 0;">
+  <div class="container" style="width: 100%; max-width: unset;">
+  <div class="form-block mx-auto">
+    <div class="text-center mb-4">
+      <img src="https://img.freepik.com/free-vector/fashion-logo_23-2148558723.jpg" alt=""
+        style="width: 220px; height: 60px; object-fit: cover;">
+      <div><b style="font-size: 25px;">Đăng ký tài khoản</b></div>
+    </div>
+      <div class="form-group">
+        <label for="ho">Họ và Tên</label>
+        <input type="text" class="form-control" placeholder="Họ và Tên" id="ho" [(ngModel)]="hoVaTen">
+      </div>
+      <div class="form-group first">
+        <label for="username">Username</label>
+        <input type="text" class="form-control" placeholder="Tên đăng nhập" id="username" [(ngModel)]="tenDangNhap">
+        <div style="color: red; font-size: 13px; font-weight: 600;">{{rqUserName}}</div>
+      </div>
+      <div class="form-group last mb-3 datePick">
+        <label for="password">Password</label>
+        <p-password [(ngModel)]="password" [toggleMask]="true"></p-password>
+        <div style="color: red; font-size: 13px; font-weight: 600;">{{rqPassword}}</div>
+      </div>
+      <div class="form-group">
+        <label for="sdt">Số điện thoại</label>
+        <input type="text" class="form-control" placeholder="Số điện thoại" id="sdt" [(ngModel)]="sdt">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="Email" class="form-control" placeholder="Email" id="email" [(ngModel)]="email">
+      </div>
+
+
+      <div class="form-group datePick">
+        <label for="email">Ngày sinh</label>
+        <p-calendar [(ngModel)]="ngaySinh"></p-calendar>
+      </div>
+      <div style="padding: 20px 0;">
+        <p-radioButton name="groupname" value="1" name="nam" [(ngModel)]="gioiTinh"></p-radioButton>
+        <label for="nam" style="margin-right: 20px; margin-left: 10px; margin-bottom: 0;"> Nam </label>
+        <p-radioButton name="groupname" value="0" name="nu" [(ngModel)]="gioiTinh"></p-radioButton>
+        <label for="nu" style="margin-left: 10px; margin-bottom: 0;"> Nữ </label>
+      </div>
+      <input type="submit" value="Đăng ký" class="btn btn-block btn-primary" style="width: 100%;" (click)="showConfirmDialog()">
+    <div style="text-align: left; margin-top: 20px;">
+      <a>Đã có tài khoản?</a><a routerLink="/login" style="color: rgb(93, 25, 157);"> Đăng nhập</a>
+    </div>
+
+  </div>
+
+  <div class="area">
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+  </div>
+  <p-dialog header="Xác nhận email" [(visible)]="showConfirmEmail" [style]="{width: '500px'}" [draggable]="false" [modal]="true" class="pdialog">
+    <p style="color: unset;">Mã xác minh đã được gửi đến tài khoản gmail của bạn, kiểm tra và nhập mã vào đây để hoàn tất đăng ký</p>
+
+    <img src="https://i.pinimg.com/originals/e8/95/83/e895836265d7d603a6a94537f5f615c8.gif" style="width: 100%; height: 150px; object-fit: cover;">
+      <div style="width: 100%;">
+        <input id="float-input" type="text" pInputText [(ngModel)]="codeInput" [maxlength]="4">
+      </div>
+      <div style="margin-bottom: 20px;">
+        <p style="color: unset;  font-size: 14px;font-weight: 700;">Đoạn code bao gồm 4 chữ số, không chia sẻ cho bất kì ai</p>
+      </div>
+      <div style="margin-bottom: 20px;" class="guilai" [ariaDisabled]="disableGuiLai">
+        <button pButton pRipple type="button" label="Gửi lại" class="p-button-secondary p-button-text" (click)="guiLai()" [disabled]="disableGuiLai" style="padding: 5px 10px;"></button>
+      </div>
+
+    <input type="submit" value="Xác nhận" class="btn btn-block btn-primary" style="width: 100%;" (click)="checkCode()">
+    <div>
+    </div>
+  </p-dialog>
+</div>
+<p-toast></p-toast>

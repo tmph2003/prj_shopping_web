@@ -1,0 +1,61 @@
+<div class="grid p-fluid">
+    <div class="col-12 md:col-4">
+        <div style="width: 79%;" class="p-inputgroup">
+            <span style="width: 18%;" class="p-inputgroup-addon">Loại sản phẩm *</span>
+            <p-dropdown class="require" [options]="loaiSanPhamList" [(ngModel)]="sanPhamSelected.loaiSanPhamId"
+                optionLabel="tenLoai" optionValue="id" class="custom-dd"></p-dropdown>
+            <button style="padding: 20px;" type="submit" class="btn btn-primary" (click)="onSubmit()">Sửa</button>
+        </div>
+    </div>
+    <div class="col-12 md:col-4">
+        <div style="width: 79%;" class="p-inputgroup">
+            <span style="width: 18%;" class="p-inputgroup-addon">Mã sản phẩm *</span>
+            <input class="require" [(ngModel)]="sanPhamSelected.maSanPham" id="masanpham" type="text" pInputText required readonly>
+            <button class="btn btn-primary" (click)="onBack()">Trở lại</button>
+        </div>
+        <div class="errAlert" *ngIf="check == true && !masanpham"><label>Mã sản phẩm bắt buộc!</label></div>
+        <div class="errAlert" *ngIf="check == true && checkMa"><label>Mã sản phẩm đã tồn tại!</label></div>
+    </div>
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Tên sản phẩm *</span>
+            <input class="require" [(ngModel)]="sanPhamSelected.ten" type="text" pInputText required>
+        </div>
+    </div>
+    <div class="errAlert" *ngIf="check == true && !tensanpham"><label>Tên sản phẩm bắt buộc!</label></div>
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Giá *</span>
+            <input class="require" [(ngModel)]="sanPhamSelected.gia" type="text" pInputText required>
+        </div>
+    </div>
+    <div class="errAlert" *ngIf="check == true && !gia"><label>Giá sản phẩm bắt buộc!</label></div>
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Mô tả</span>
+            <input class="not_require" [(ngModel)]="sanPhamSelected.moTa" type="text" pInputText>
+        </div>
+    </div>
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Ghi chú</span>
+            <input class="not_require" [(ngModel)]="sanPhamSelected.ghiChu" type="text" pInputText>
+        </div>
+    </div>
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Chất liệu</span>
+            <input class="require" [(ngModel)]="sanPhamSelected.chatLieu" type="text" pInputText required>
+        </div>
+    </div>
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Ảnh</span>
+            <input type="file" ngf-select ngModel ngf-pattern="'image/*'" accept="image/*" ngf-max-size="20MB"
+                (change)="onChangeImage($event)" />
+            <img [src]="sanPhamSelected.duongDanAnh" *ngIf="anh" class="anhSanPham" style="border: 1px solid black;">
+        </div>
+    </div>
+    <div class="errAlert" *ngIf="check == true && !anh"><label>Ảnh sản phẩm bắt buộc!</label></div>
+</div>
+<p-toast />

@@ -1,0 +1,66 @@
+<p-table class="table-sanpham" [value]="datas" [tableStyle]="{'min-width': '60rem'}" [paginator]="true" [rows]="5"
+    [tableStyle]="{'min-width': '150%'}">
+    <ng-template class="top-table" pTemplate="caption">
+        <div class="flex align-items-center justify-content-between"
+            style="padding: 10px; display: grid; grid-template-columns: 90% 5% 5%; align-items: center; font-size: 30px;">
+            <th style="border-style: none;">Sản phẩm</th>
+            <th style="border-style: none;"><p-button icon="pi pi-refresh" title="Làm mới"
+                    (click)="getAll()"></p-button></th>
+            <th style="border-style: none;"><a [routerLink]="['/themsanpham']"><p-button icon="pi pi-plus"
+                        title="Thêm mới"></p-button></a></th>
+        </div>
+    </ng-template>
+    <ng-template class="header-table" pTemplate="header">
+        <tr style="height: 45px;">
+            <th>ID</th>
+            <th>Loại sản phẩm ID</th>
+            <th>Mã sản phẩm</th>
+            <th>Tên</th>
+            <th>Giá</th>
+            <th>Giá sau giảm</th>
+            <th>Mô tả</th>
+            <th>Ghi chú</th>
+            <th>Chất liệu</th>
+            <th>Đánh giá</th>
+            <th>Ảnh</th>
+            <th>Ngày tạo</th>
+            <th>Ngày cập nhật</th>
+            <th></th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-datas>
+        <tr>
+            <td style="width: 200px;">{{datas.id}}</td>
+            <td style="width: 200px;">{{datas.loaiSanPhamId}}</td>
+            <td>{{datas.maSanPham}}</td>
+            <td>{{datas.ten}}</td>
+            <td>{{datas.gia}}</td>
+            <td>{{datas.giaSauGiam}}</td>
+            <td style="overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            word-break: break-word;
+            width: 400px;">{{datas.moTa}}</td>
+            <td>{{datas.ghiChu}}</td>
+            <td>{{datas.chatLieu}}</td>
+            <td>{{datas.danhGia}}</td>
+            <td><img [src]="datas.duongDanAnh"></td>
+            <td>{{datas.ngayTao}}</td>
+            <td>{{datas.ngayCapNhat}}</td>
+            <td>
+                <button class="button"><a [routerLink]="['/suasanpham', datas.id]" title="Sửa"><i
+                            class="fa-regular fa-pen-to-square"></i></a></button>
+                <button class="button"><a (click)="deleteSanPhamById(datas.id)" title="Xóa"><i
+                            class="fa-solid fa-trash"></i></a></button>
+            </td>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="summary">
+        <div class="flex align-items-center justify-content-between">
+            Tổng {{datas ? datas.length : 0 }} sản phẩm.
+        </div>
+    </ng-template>
+</p-table>
+<p-toast></p-toast>
+<p-confirmDialog></p-confirmDialog>

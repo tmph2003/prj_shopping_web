@@ -1,0 +1,19 @@
+.visible .main {
+  margin-left: 15%;
+  transition: all 0.25s ease;
+}
+
+.visible .side-nav {
+  transition: all 0.5s ease;
+}
+
+:not(.visible) .side-nav {
+  display: none;
+}
+:not(.visible) .main {
+  transition: all 0.25s ease;
+}
+
+.main {
+  margin-left: 10px;
+}

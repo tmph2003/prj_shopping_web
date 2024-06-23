@@ -1,0 +1,37 @@
+<p-table class="table-sanpham" [value]="datas" [tableStyle]="{'min-width': '60rem'}" [paginator]="true" [rows]="15"
+    [tableStyle]="{'min-width': '100%'}">
+    <ng-template class="top-table" pTemplate="caption">
+        <div class="flex align-items-center justify-content-between"
+            style="padding: 10px; display: grid; grid-template-columns: 90% 5% 5%; align-items: center; font-size: 30px;">
+            <th style="border-style: none;">Góp ý</th>
+            <th style="border-style: none;"><p-button icon="pi pi-refresh" title="Làm mới"
+                    (click)="getAll()"></p-button></th>
+        </div>
+    </ng-template>
+    <ng-template class="header-table" pTemplate="header">
+        <tr style="height: 45px;">
+            <th>ID</th>
+            <th>Họ tên</th>
+            <th>Email</th>
+            <th>Số điện thoại</th>
+            <th>Nội dung</th>
+            <th>Ngày tạo</th>
+            <th></th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-datas>
+        <tr>
+            <td>{{datas.id}}</td>
+            <td>{{datas.hoTen}}</td>
+            <td>{{datas.email}}</td>
+            <td>{{datas.soDienThoai}}</td>
+            <td>{{datas.noiDung}}</td>
+            <td>{{datas.ngayTao}}</td>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="summary">
+        <div class="flex align-items-center justify-content-between">
+            Tổng {{datas ? datas.length : 0 }} góp ý.
+        </div>
+    </ng-template>
+</p-table>

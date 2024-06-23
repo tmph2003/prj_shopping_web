@@ -1,0 +1,81 @@
+.item{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+.cot1 img{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.cot2 div{
+  margin-top: 20px;
+}
+.cot3{
+  display: flex;
+  align-items: center;
+}
+.cot4{
+  display: flex;
+  align-items: center;
+}
+.item__name{
+  font-size: 22px;
+}
+.cart__product{
+  display: flex;
+}
+.div1, .div2{
+  display: flex;
+}
+.item--container, .sum{
+  padding: 0 20px;
+}
+.cot1, .cot2, .cot3, .cot4{
+  padding: 5px 10px;
+}
+
+.item{
+  position: relative;
+}
+.item_con{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.item::before{
+  content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background: linear-gradient(to right, #c8e4ff, #fff);
+      transition: 0.5s ease;
+      z-index: -1;
+}
+.item:hover{
+  cursor: pointer;
+}
+
+.item:hover::before{
+  width: 100%;
+}
+
+ span div{
+  width: 30px;
+  height: 30px;
+  border: solid lightgray 1px;
+  border-radius: 50%;
+  margin-top: 0px !important;
+  margin-left: 20px;
+}
+
+
+
+
+:host ::ng-deep .p-inputtext{
+  width: 50px !important;
+}

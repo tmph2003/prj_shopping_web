@@ -1,0 +1,9 @@
+p{
+  margin: 0;
+}
+.item_user:hover{
+ cursor: pointer;
+}
+:host ::ng-deep .p-progressbar{
+  height: 2px;
+}

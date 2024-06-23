@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  height: 92%;
+  width: 200px;
+  position: absolute;
+  background-color: rgb(248, 113, 2);
+  left: -15%;
+  border-bottom-right-radius: 40px;
+}
+ul li {
+  margin: 0 !important;
+  list-style: none;
+  padding-right: 20px;
+}
+
+ul li:hover {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: rgba(255, 255, 255);
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+}
+ul:hover li {
+  opacity: 0.7;
+  filter: blur(0.2px);
+}
+
+ul li:hover {
+  opacity: 1;
+  filter: blur(0.1px);
+}
+
+ul li:hover a {
+  color: #ff7300;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 0;
+}
+
+ul li a {
+  transition: all 0.1s ease;
+}
+
+ul li:hover a i {
+  color: #ff7300;
+}
+
+ul li a {
+  color: white;
+  font-weight: 500;
+  padding: 15px 0;
+  display: block;
+  text-transform: capitalize;
+  text-decoration: none;
+  cursor: pointer;
+}
+i {
+  width: 40px;
+  text-align: center;
+  color: white;
+}
+
+.sidebar.visible {
+  left: 0;
+}

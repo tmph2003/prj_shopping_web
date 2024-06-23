@@ -1,0 +1,227 @@
+<div style="margin-top: 144px; padding: 40px 0;">
+  <div class="container">
+  <div class="chitietsp__container">
+    <div class="chitietsanpham">
+      <div class="hang" *ngIf="sanPham">
+        <div class="left">
+          <div class="img__container">
+            <p-image [src]="sanPham.duongDanAnh" alt="Image" [preview]="true"></p-image>
+          </div>
+        </div>
+        <div class="right">
+          <div class="right__item" style="display: flex; justify-content: space-between;">
+            <h4>{{sanPham.ten}}</h4>
+            <div style=" margin-right: 20px; display: flex; margin-top: 2px; "  class="box-yeuthich" *ngIf="!isYeuThich">
+              <i class="far fa-heart" style="font-size: 25px; font-family:'Font Awesome 6 Free'; "  (click)="themYeuThich()"></i>
+            </div>
+            <div style=" margin-right: 20px; display: flex; margin-top: 2px; "  class="box-yeuthich2" *ngIf="isYeuThich">
+              <i class="fas fa-heart" style="font-size: 25px; font-family:'Font Awesome 6 Free'; color: rgb(237, 1, 1); "  (click)="boYeuThich()"></i>
+            </div>
+          </div>
+          <div class="right__item">Loại sản phẩm: <span style="color: gray;">{{tenLoaiSanPham}}</span></div>
+          <div class="right__item">Chất liệu: <span style="color: gray;">{{sanPham.chatLieu}}</span></div>
+          <div class="right__item rate" style="display: flex;"><span style="margin-right: 10px;">Đánh giá: </span><p-rating [readonly]="true" [stars]="5" [cancel]="false" [(ngModel)]="sanPham.danhGia" ></p-rating><span style="margin-left: 10px;" *ngIf="sanPhamDanhGia != 0">{{sanPham.danhGia | roundDecimal}}</span> <span style="margin-left: 10px;" *ngIf="sanPhamDanhGia == 0">Chưa có đánh giá</span></div>
+          <div class="right__item">Lượt mua: 35</div>
+          <div class="right__item"  style="display: flex; margin-bottom: 5px;">
+            <span style="display: flex; align-items: center; width: 87px;">
+              Màu sắc:
+            </span>
+            <div class="listsize__container" style="overflow-x:scroll; display: flex; margin-left: 10px; padding: 4px;">
+              <div *ngFor="let item of listMau">
+                <input type="radio" name="color" id="do" class="radiocheck" value="1" [(ngModel)]="colorSelected" (change)="doiMau()" *ngIf="item == 1">
+                <label for="do" style="  background-color: red;"*ngIf="item == 1"></label>
+
+                <input type="radio" name="color" id="cam" class="radiocheck" value="2" [(ngModel)]="colorSelected" (change)="doiMau()"*ngIf="item == 2">
+                <label for="cam" style="  background-color: orange;" *ngIf="item == 2"></label>
+                <input type="radio" name="color" id="vang" class="radiocheck" value="3" [(ngModel)]="colorSelected" (change)="doiMau()" *ngIf="item == 3">
+                <label for="vang" style="  background-color: yellow;" *ngIf="item == 3"></label>
+                <input type="radio" name="color" id="luc" class="radiocheck" value="4" [(ngModel)]="colorSelected" (change)="doiMau()" *ngIf="item == 4">
+                <label for="luc" style="  background-color: rgb(22, 126, 6);" *ngIf="item == 4"></label>
+                <input type="radio" name="color" id="xanhduong" class="radiocheck"  value="5"[(ngModel)]="colorSelected" (change)="doiMau()" *ngIf="item == 5">
+                <label for="xanhduong" style="  background-color: rgb(14, 5, 110);"  *ngIf="item == 5"></label>
+                <input type="radio" name="color" id="tim" class="radiocheck" value="6" [(ngModel)]="colorSelected" (change)="doiMau()" *ngIf="item == 6">
+                <label for="tim" style="  background-color: rgb(51, 5, 106);"  *ngIf="item == 6"></label>
+                <input type="radio" name="color" id="trang" class="radiocheck" value="8" [(ngModel)]="colorSelected" (change)="doiMau()"*ngIf="item == 8">
+                <label for="trang" style="  background-color: rgb(255, 255, 255);"  *ngIf="item == 8"></label>
+                <input type="radio" name="color" id="den" class="radiocheck" value="7"[(ngModel)]="colorSelected" (change)="doiMau()" *ngIf="item == 7">
+                <label for="den" style="  background-color: rgb(0, 0, 0);"  *ngIf="item == 7"></label>
+              </div>
+
+
+              <!-- <p-selectButton [options]="colors" [(ngModel)]="mauSelected" optionLabel="name" optionValue="id"></p-selectButton> -->
+            </div>
+
+          </div>
+          <div class="right__item" style="display: flex; margin-bottom: 6px;">
+            <span style="display: flex; align-items: center;">
+              Size:
+            </span>
+
+            <div class="listsize__container" style="overflow-x:scroll; display: flex; margin-left: 10px; padding: 4px;">
+              <p-selectButton [options]="listKichCo" [(ngModel)]="sizeSelected" (onChange)="doiKichThuoc()"></p-selectButton>
+            </div>
+          </div>
+          <div class="product-size-guide" (click)="showTimSize = true">
+            <a>
+              <i class="fa-solid fa-ruler"></i> Gợi ý tìm size
+            </a>
+              <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="right__item" style="color: gray; font-weight: bold; font-size: 22px;" *ngIf="!sanPham.giaSauGiam">{{sanPham.gia | formatVnd}}</div>
+          <div style="display: flex; align-items: center;"  *ngIf="sanPham.giaSauGiam">
+            <div class="right__item" style="color: gray; font-weight: bold; font-size: 18px; margin-right: 10px; color: lightgray; text-decoration: line-through;">{{sanPham.gia | formatVnd}}</div>
+            <div class="right__item" style="color: gray; font-weight: bold; font-size: 22px;">{{sanPham.giaSauGiam | formatVnd}}</div>
+          </div>
+
+          <div class="right__item" style="display: flex; align-items: center;">Số lượng:
+            <p-inputNumber id="ck" mode="decimal" [showButtons]="true" buttonLayout="horizontal" spinnerMode="horizontal" [(ngModel)]="soLuongMua"
+            decrementButtonClass="p-button-secondary" incrementButtonClass="p-button-secondary" incrementButtonIcon="fas fa-plus" decrementButtonIcon="fas fa-minus" [min]="0" [max]="spConLai"></p-inputNumber>
+            <div class="soLuongConLai" *ngIf="sizeSelected">
+              <p style="margin-bottom: 0; margin-left: 20px;">Còn lại: {{spConLai}}</p>
+            </div>
+          </div>
+
+          <div class="right__item2">
+            <button pButton type="button" class="p-button-raised p-button-rounded p-button-success" style="border-radius: 25px; padding: 8px 10px; width: 100%; justify-content: center;" (click)="checkDangNhap()">Thêm vào giỏ hàng <i class="fa-solid fa-cart-shopping" style="margin-left: 10px;"></i></button>
+          </div>
+        </div>
+        <div class="last">
+          <h4>Sản phẩm cùng loại</h4>
+          <p-scroller class="custom-loading" [items]="listSPCungLoai" [itemSize]="25 * 7" [showLoader]="false" [delay]="0" styleClass="border-1 surface-border" [style]="{'width': '100%', 'height': '431px'}">
+            <ng-template pTemplate="item" let-item let-options="options">
+                <div class="item" routerLink="/chitietsanpham/{{item.id}}" (click)="spKhac(item.id)">
+                  <div class="anhsanphamlist">
+                    <img [src]="item.duongDanAnh">
+                  </div>
+                  <div class="cot2__listsp">
+                    <div class="tensp__container">
+                        <p>{{item.ten}}</p>
+                    </div>
+                    <div class="danhgia__container">
+                      <p-rating [readonly]="true" [stars]="5" [cancel]="false" [(ngModel)]="item.danhGia" ></p-rating>
+                    </div>
+                    <div class="gia__container">
+                      <div class="right__item" style="color: gray; font-weight: bold; font-size: 18px;" *ngIf="!item.giaSauGiam">{{item.gia | formatVnd}}</div>
+                      <div style="display: flex; align-items: center;"  *ngIf="item.giaSauGiam">
+                        <div class="right__item" style="color: gray; font-weight: bold; font-size: 18px;">{{item.giaSauGiam | formatVnd}}</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </ng-template>
+          </p-scroller>
+        </div>
+
+      </div>
+      <div class="hang2" style="margin-bottom: 20px; display: flex;">
+        <p-galleria [value]="listAnh" [showIndicators]="false" [showItemNavigatorsOnHover]="true" [showItemNavigators]="true" [responsiveOptions]="responsiveOptions" [containerStyle]="{ 'max-width': '100%' }">
+          <ng-template pTemplate="item" let-item>
+              <img [src]="item.duongDan" style="width: 100%; display: block;     height: 400px; object-fit: contain; background-color: lightblue;" />
+          </ng-template>
+          <ng-template pTemplate="thumbnail" let-item>
+              <div class="grid grid-nogutter justify-content-center">
+                  <img [src]="item.duongDan" style="display: block; height:70px; object-fit: cover; width: 50px;" />
+              </div>
+          </ng-template>
+        </p-galleria>
+        <div class="hang_2" style="width: 60%;">
+          <h4>Mô tả</h4>
+          <div style="min-height: 300px; background-color: rgb(255, 234, 234); padding: 20px 30px" *ngIf="sanPham">
+            <p>{{sanPham.moTa}}</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="hang3" style="margin-top: 30px;">
+        <div> <h4 style="font-weight: 900;">Đánh giá sản phẩm:</h4></div>
+
+        <div *ngIf="sanPhamDanhGia">
+          <div *ngIf="sanPhamDanhGia.length == 0">
+            <div  style="display: flex;justify-content: center;">
+              <img style="width: 200px; height: 200px; object-fit: cover; opacity: 0.7;" src="https://static.vecteezy.com/system/resources/previews/016/026/429/non_2x/give-app-rate-and-review-feedback-concept-illustration-flat-design-eps10-modern-graphic-element-for-landing-page-empty-state-ui-infographic-icon-vector.jpg">
+            </div>
+            <h4 style="color: lightgray; opacity: 0.9; text-align: center;">Chưa có đánh giá nào về sản phẩm này</h4>
+          </div>
+          <div class="listDanhGia" *ngIf="sanPhamDanhGia.length > 0">
+            <div class="hang3" *ngFor="let item of sanPhamDanhGia" style="margin-bottom: 20px;">
+              <div style="color: rgb(82, 23, 138); display: flex; justify-content: space-between;"><h5>Ngày đánh giá:</h5> <h5>{{item.ngayTao | dateFormat}}</h5></div>
+              <div class="userDanhGia__container">
+                <div class="sanPhamDanhGia" style="display: flex; justify-content: space-between;">
+
+
+                  <div style="display: flex; align-items: center; justify-content: center;">
+                    <p-rating [stars]="5" [cancel]="false" [(ngModel)]="item.vote" [readonly]="true" ></p-rating>
+                  </div>
+                  <div class="spdh_mota" style="display: flex;  margin-left: 120px;">
+                    <p style="font-weight: bold;">{{item.tenSp}}</p>
+                    <p>Size: {{item.kichCo}}</p>
+                    <p>Màu: {{item.mau}}</p>
+                  </div>
+                </div>
+                <hr/>
+                <div class="imageDanhGia__container" style="display: flex; width: 100%; overflow-x: scroll;">
+                  <div style="padding: 5px 10px" *ngFor="let itemChild of item.anhDanhGia">
+                    <p-image [src]="itemChild.duongDan" alt="Image" [preview]="true" width="90px" height="100px"></p-image>
+                  </div>
+                </div>
+                <div style="margin-bottom: 20px;" class="uploadFile">
+
+                </div>
+                <div class="nguoidung" style="display: flex; margin-bottom: 20px;">
+                  <div class="spdg_anh" style="margin-right: 20px;">
+                    <img [src]="item.duongDanAnhAc" style="width: 48px; height: 48px; object-fit: cover;">
+                  </div>
+                  <div class="spdh_mota">
+                    <p style="font-weight: bold;">ID: <span style="font-weight: 500; margin-left: 5px;"> {{item.idNguoiDung}}</span></p>
+                    <p style="font-weight: bold;">Tên: <span style="font-weight: 500; margin-left: 5px;"> {{item.tenAc}}</span></p>
+                  </div>
+                </div>
+                <textarea pInputTextarea [rows]="5" style="width: calc(100%) !important; padding: 5px 10px;" [(ngModel)]="item.noiDung" [disabled]="true"></textarea>
+
+              </div>
+              <hr/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <p-dialog header="Hướng dẫn chọn Size" [(visible)]="showTimSize" [style]="{width: '1000px'}" [draggable]="false" [modal]="true" [maximizable]="true" *ngIf="showTimSize">
+    <div style=" display: flex; justify-content: center; padding: 10px 0;">
+      <div style="width: 800px;">
+              <img src="https://bizweb.dktcdn.net/100/438/408/files/2705-bangsize-01-449f9e67-9d72-42e3-b72d-67f04c29c31e.jpg?v=1653646530679" style="width: 100%;">
+      </div>
+    </div>
+    <div style=" display: flex; justify-content: center; padding: 10px 0;">
+      <div style="width: 800px;">
+              <img src="https://bizweb.dktcdn.net/100/438/408/files/2705-bangsize-02-3df480d6-a4af-4f68-af72-9b2b5a2d1f52.jpg?v=1653646531694" style="width: 100%;">
+      </div>
+    </div>
+    <div style=" display: flex; justify-content: center; padding: 10px 0;">
+      <div style="width: 800px;">
+              <img src="https://bizweb.dktcdn.net/100/438/408/files/2705-bangsize-03-f253f34f-e2f5-4f8c-a911-47120a85e4b7.jpg?v=1653646532692" style="width: 100%;">
+      </div>
+    </div>
+    <div style=" display: flex; justify-content: center; padding: 10px 0;">
+      <div style="width: 800px;">
+              <img src="https://bizweb.dktcdn.net/100/438/408/files/2705-bangsize-03-f253f34f-e2f5-4f8c-a911-47120a85e4b7.jpg?v=1653646532692" style="width: 100%;">
+      </div>
+    </div>
+    <div style=" display: flex; justify-content: center; padding: 10px 0;">
+      <div style="width: 800px;">
+              <img src="https://bizweb.dktcdn.net/100/438/408/files/2705-bangsize-05-0b499fc7-9b68-45f1-9eea-0e81251ee951.jpg?v=1653646534310" style="width: 100%;">
+      </div>
+    </div>
+    <div style=" display: flex; justify-content: center; padding: 10px 0;">
+      <div style="width: 800px;">
+              <img src="https://bizweb.dktcdn.net/100/438/408/files/2705-bangsize-06-d31ce9c3-d18c-44f9-993c-8dbaf4a8e0dc.jpg?v=1653646535311" style="width: 100%;">
+      </div>
+    </div>
+  </p-dialog>
+<p-toast></p-toast>

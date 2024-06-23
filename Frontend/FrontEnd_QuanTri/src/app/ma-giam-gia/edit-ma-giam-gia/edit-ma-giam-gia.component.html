@@ -1,0 +1,24 @@
+<div class="grid p-fluid">
+    <div class="col-12 md:col-4">
+        <div style="width: 79%;" class="p-inputgroup">
+            <span style="width: 18%;" class="p-inputgroup-addon">Số lượng</span>
+            <input class="require" [(ngModel)]="soLuong" type="text" pInputText>
+            <button style="padding: 20px;" type="submit" class="btn btn-primary" (click)="onSubmit()">Sửa</button>
+        </div>
+    </div>
+    <div class="errAlert" *ngIf="check == true && !ma"><label>Số lượng mã bắt buộc!</label></div>
+    <div class="col-12 md:col-4">
+        <div style="width: 79%;" class="p-inputgroup">
+            <span style="width: 18%;" class="p-inputgroup-addon">Mã</span>
+            <input class="require" [(ngModel)]="ma" type="text" pInputText>
+            <button class="btn btn-primary" (click)="onBack()">Trở lại</button>
+        </div>
+    </div>
+    <div class="errAlert" *ngIf="check == true && !ma"><label>Mã giảm giá bắt buộc!</label></div>
+    <div class="col-12 md:col-4">
+        <div class="p-inputgroup">
+            <span class="p-inputgroup-addon">Lượng giảm</span>
+            <input class="require" [(ngModel)]="luongGiam" type="text" pInputText>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,143 @@
+
+
+<header>
+  <div style="display: flex;">
+    <div class="header__logo--container">
+      <div class="header__logo">
+        <img src="https://img.freepik.com/free-vector/fashion-logo_23-2148558723.jpg" style="width: 220px; height: 60px; object-fit: cover;" routerLink="/home">
+      </div>
+
+    </div>
+    <div style="width: 60%;">
+      <div class="Outcontainer" >
+        <div class="header__logo-account" id="xh_menu" style="transition: 0.5s;">
+
+          <div class="search__engine">
+            <div class="mid">
+              <input type="text" placeholder="Tìm kiếm sản phẩm theo tên" (keydown)="timSP($event)" [(ngModel)]="searchKey"/>
+              <div class="content">
+                <p routerLink="/shop/7EEAA5E7-41EF-49A6-AC4D-A23DFFBE3F81"> Áo thun </p>
+                <p routerLink="/shop/48F1B6D1-EF14-44ED-8BD9-4305669B74A0"> Áo khoác dù </p>
+                <p routerLink="/shop/F5439B71-98C9-4CCE-AC2F-7A689E924CEA"> Áo Polo </p>
+                <p routerLink="/shop/2904143F-949A-4BF6-A530-A0E9D24507B9"> Áo sơ mi </p>
+                  <p routerLink="/shop/FDD00170-D6FD-4749-9D08-E351F09461B7"> Quần jeans </p>
+              </div>
+              <button class="but_Search" type="button" (click)="timKiem()"><i class="fas fa-magnifying-glass"></i></button>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="header__menu--container" style="position: relative;">
+        <div class="header__menu cha">
+          <div class="menu__item" routerLink="/home"><a>Home</a></div>
+          <div class="menu__item cha1" routerLink="/shop/00000000-0000-0000-0000-000000000000"><a>All Product <i class="fa-solid fa-angle-down"></i></a></div>
+          <div class="con">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <a routerLink="/shop/00000000-0000-0000-0000-000000000000" style="text-decoration: none; color: black;">Tất cả sản phẩm</a>
+                  <a>Áo</a>
+                  <ul>
+                    <li routerLink="/shop/7EEAA5E7-41EF-49A6-AC4D-A23DFFBE3F81">Áo thun</li>
+                    <li routerLink="/shop/F5439B71-98C9-4CCE-AC2F-7A689E924CEA">Áo polo</li>
+                    <li routerLink="/shop/2904143F-949A-4BF6-A530-A0E9D24507B9">Áo sơ mi</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <a>Túi và Balo</a>
+                  <ul>
+                    <li>Balo</li>
+                    <li>Túi đeo chéo</li>
+                    <li>Túi đeo vai</li>
+                  </ul>
+                  <a>Quần</a>
+                  <ul>
+                    <li routerLink="/shop/FDD00170-D6FD-4749-9D08-E351F09461B7">Quần jeans</li>
+                    <li routerLink="/shop/21729103-15E7-4448-9309-DE07B2720E03">Quần shorts</li>
+                    <li routerLink="/shop/AF60CBAC-CC26-414A-98DE-0ADD96792401">Quần joggers</li>
+                    <li routerLink="/shop/71A9CE9B-559D-4EB3-9727-E659FB1F8D95">Chân váy</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <a>Áo khoác, Hoodie và Sweater</a>
+                  <ul>
+                    <li  routerLink="/shop/48F1B6D1-EF14-44ED-8BD9-4305669B74A0">Áo khoác dù</li>
+                    <li routerLink="/shop/A2E2E9F9-C630-44EC-AAF4-D83C61CAC11D">Hoodie</li>
+                    <li routerLink="/shop/9CA5D890-DAC1-467A-B06A-28CF711AA898">Sweeter</li>
+                    <li routerLink="/shop/44A4EC7A-7EE6-4C92-A311-73F1DB460FEA">Bomber</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <a>Phụ kiện</a>
+                  <ul>
+                    <li routerLink="/shop/D4F1D78D-7505-4041-8F36-68200096E893">Nón</li>
+                    <li routerLink="/shop/36A8691F-7AB8-4148-A19E-1A65F8C9E04B">Đồng hồ</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu__item" routerLink="/discount"><a>Discount code</a></div>
+          <!-- <div class="menu__item"><a>Collection</a></div> -->
+
+          <div class="menu__item" routerLink="/baiviet/f8469a83-0b5e-4891-8c56-420339132c14"><a>About Us</a></div>
+          <div class="menu__item cha2">
+            <a>Custom Care <i class="fa-solid fa-angle-down"></i></a>
+            <div class="con2">
+              <a routerLink="/baiviet/2e8dcac8-0efc-4dc0-bd6f-63ea7fe5c6aa" style="text-decoration: none;">Chất liệu sản phẩm</a>
+              <a routerLink="/baiviet/c1ab860a-9138-4466-811c-fff6a9c27c2c" style="text-decoration: none;">Chính sách đổi trả</a>
+              <a routerLink="/baiviet/f0495966-7fed-4fb4-8461-19f28d87a8a4" style="text-decoration: none;">Chính sách giao hàng</a>
+            </div>
+          </div>
+          <div class="menu__item" routerLink="/contact"><a>Contact</a></div>
+          <div class="menu__item" routerLink="/ContactToAdmin" *ngIf="isAccount && isDangNhap"><a>Contact to Admin</a></div>
+          <div class="menu__item" routerLink="/supportuser" *ngIf="isAdmin && isDangNhap"><a>Chatbox</a></div>
+          <div class="menu__item" *ngIf="isAdmin && isDangNhap"><a href="http://localhost:8001" style="color: red; text-decoration: none; font-weight: bold;">Quản trị</a></div>
+        </div>
+
+      </div>
+    </div>
+    <div style="width: 20%;">
+
+      <div style="display: flex; justify-content: space-between; height: 100%; flex-direction: column;">
+
+        <div style="display: flex; justify-content: center; margin-top: 16px; align-items: center; transition: 0.5s ease-in-out;" class="header__account" id="accountmg">
+          <div class="item cha3" *ngIf="!isDangNhap">
+            <i class="far fa-user" style="font-size: 24px;"></i>
+            <div class="con3 menuUser" style="    top: 45px;">
+              <a routerLink="/login">Đăng nhập</a>
+              <a routerLink="/dangky">Đăng ký</a>
+            </div>
+          </div>
+          <div class="item cha3" *ngIf="isDangNhap">
+            <span>Xin chào, {{account.tenHienThi}}</span>
+            <i class="far fa-user" style="margin-left: 10px;"></i>
+            <div class="con3 menuUser menuUserDN" style="width: 200px; left: 20px;     top: 45px;">
+              <a routerLink="/taikhoan">Thông tin tài khoản</a>
+              <a routerLink="/donhang">Đơn hàng của tôi</a>
+              <a (click)="dangXuat()">Đăng xuất</a>
+            </div>
+          </div>
+        </div>
+        <div class="header__account" style="display: flex; align-items: center; justify-content: center; margin-bottom: 25px; transition: 0.5s ease-in-out;" id="icon_hide">
+
+          <div class="item" routerLink="/giohang">
+            <i class="fas fa-cart-shopping" style="position: relative;">
+              <div style="background-color: rgb(248, 252, 18); width: 19px; height: 19px; position: absolute; top:-6px; right: -6px; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
+                <span style="font-size: 12px;">{{soSPTrongGio}}</span>
+              </div>
+            </i>
+          </div>
+          <div style="display: flex; align-items: center;" routerLink="/yeuthich" class="box-yeuthich item">
+            <i class="fas fa-heart" style="font-size: 20px;" ></i>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</header>
+

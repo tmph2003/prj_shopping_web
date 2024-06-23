@@ -1,0 +1,13 @@
+.mid-footer{
+  background-color: rgb(39, 14, 104);
+  color: white;
+}
+
+.icon_lk a{
+  border-radius: 25px;
+  margin-left: 15px;
+}
+.icon_lk i{
+  width: 100%;
+  display: block;
+}

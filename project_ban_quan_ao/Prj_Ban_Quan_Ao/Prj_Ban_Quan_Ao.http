@@ -1,0 +1,6 @@
+@Prj_Ban_Quan_Ao_HostAddress = http://localhost:5117
+
+GET {{Prj_Ban_Quan_Ao_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

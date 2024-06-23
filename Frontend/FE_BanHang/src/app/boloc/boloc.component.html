@@ -1,0 +1,92 @@
+<div style="margin-top: 144px; padding: 40px 0;">
+  <div class="container">
+  <div class="boloc__container">
+    <div class="boloc">
+
+      <div >
+        <div style="width: 100%; padding: 10px;padding-left: 0; position: relative;">
+          <div class="danhmuc_con">
+            <!--  -->
+            <p-carousel [value]="lstLoaiSanPham" [numVisible]="5">
+              <ng-template pTemplate="item">
+                <p routerLink="/shop/00000000-0000-0000-0000-000000000000">Tất cả sản phẩm</p>
+              </ng-template>
+              <ng-template let-sp pTemplate="item">
+                  <div class="dm_item">
+                    <p routerLink="/shop/{{sp.id}}" style="text-align: center; display: block;padding: 5px; margin: 0;">{{sp.tenLoai}}</p>
+                  </div>
+              </ng-template>
+            </p-carousel>
+
+
+        </div>
+
+
+        <div style="width: 100%;">
+
+          <div class="filter__container">
+            <div style="padding: 8px">
+              <h4 style="margin-bottom: 0px;">Loại sản phẩm: <span class="tenloai">{{title}}</span></h4>
+            </div>
+            <div class="filter cha">
+              <i class="fas fa-list"></i>
+              <p> {{sortTitle}}</p>
+              <div class="con" style="z-index: 2;">
+                <div (click)="sapXep(1)">Giá giảm dần</div>
+                <div (click)="sapXep(2)">Giá tăng dần</div>
+                <div (click)="sapXep(3)">Đánh giá giảm dần</div>
+                <div (click)="sapXep(4)">Đánh giá tăng dần</div>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="!listSanPham" style="text-align: center;">
+            <p-progressSpinner></p-progressSpinner>
+          </div>
+          <div class="first" style="margin-bottom: 20px;">
+            <div class="item" *ngFor="let item of listSanPham">
+              <!-- routerLink="/chitietsanpham/{{item.id}}" -->
+              <div>
+                <div class="item__img" style="position: relative;">
+                  <img [src]="item.duongDanAnh">
+                  <div class="button_item" style="position: absolute; width: 100%;">
+                    <button pButton type="button" class="p-button-raised p-button-rounded p-button-help" style=" padding: 8px 10px; width: 100%; justify-content: center; font-weight: 700;" routerLink="/chitietsanpham/{{item.id}}">Xem chi tiết<i class="fa-solid fa-eye" style="margin-left: 10px;"></i></button>
+                  </div>
+                </div>
+                <div class="item__des">
+                  <p class="ten">{{item.ten}}</p>
+                  <p class="chatlieu">{{item.chatLieu}}</p>
+                  <!-- <p class="chatlieu"{{item.chatLieu}}></p> -->
+                  <p><p-rating [(ngModel)]="item.danhGia" [readonly]="true" [stars]="5" [cancel]="false" ></p-rating></p>
+                  <!-- <div class="listsize__container" style=" display: flex;  padding: 4px; padding-left: 0px;">
+
+                                  <input type="radio" name="color" id="do" class="radiocheck">
+                    <label for="do" style="  background-color: red;"></label>
+                    <label for="cam" style="  background-color: orange;"></label>
+                     <input type="radio" name="color" id="vang" class="radiocheck">
+                    <label for="vang" style="  background-color: yellow;"></label>
+                    <label for="luc" style="  background-color: rgb(22, 126, 6);"></label>
+                    <label for="xanhduong" style="  background-color: rgb(14, 5, 110);"  ></label>
+                    <label for="tim" style="  background-color: rgb(51, 5, 106);"  ></label>
+                    <label for="trang" style="  background-color: rgb(255, 255, 255);"  ></label>
+                    <label for="den" style="  background-color: rgb(0, 0, 0);"  ></label>
+                  </div> -->
+                  <p class="gia" *ngIf="!item.giaSauGiam">{{item.gia | formatVnd }}</p>
+                  <span *ngIf="item.giaSauGiam" style="display: flex; justify-content: left">
+                    <p class="gia" style="color: gray; text-decoration: line-through; margin-right: 10px;">{{item.gia | formatVnd }}</p>
+                    <p class="gia" >{{item.giaSauGiam | formatVnd }}</p>
+                  </span>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <p-paginator (onPageChange)="onPageChange($event)" [rows]="20" [totalRecords]="lg"></p-paginator>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
