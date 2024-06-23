@@ -1,0 +1,47 @@
+version: 1.0.0
+
+services:
+  db:
+    image: db:latest
+    ports:
+      - 1433:1433
+    volumes:
+      - ./db/DuLieuDoAn.sql:/home/DuLieuDoAn.sql
+      - ./db/ddl.sql:/home/ddl.sql
+      - ./db/dml_trigger.sql:/home/dml_trigger.sql
+
+  web-api:
+    image: prj_netcore_api:latest
+    ports:
+      - 8080:8080
+      - 8081:8081
+
+  fe-admin:
+    image: admin:latest
+    ports:
+      - 8001:80
+  
+  fe-client:
+    image: client:latest
+    ports:
+      - 8002:80
+
+  proxy:
+    build:
+      context:  ./nginx
+      dockerfile: Dockerfile
+    ports:
+      - "8088:80"
+    depends_on:
+      - web-api
+
+  minio:
+    hostname: minio
+    image: minio/minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ACCESS_KEY: minio
+      MINIO_SECRET_KEY: minio123
+    command: server /data --console-address ":9001"
